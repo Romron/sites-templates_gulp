@@ -27,11 +27,9 @@ module.exports = function styles() {
     }))
     .pipe(shorthand())
     .pipe(cleanCSS({
-      format: 'beautify',
       debug: true,
       compatibility: '*'
-    }, 
-    details => {
+    }, details => {
       console.log(`${details.name}: Original size:${details.stats.originalSize} - Minified size: ${details.stats.minifiedSize}`)
     }))
     .pipe(sourcemaps.write())
