@@ -4,3 +4,46 @@
 
 @import "common/footer";
 
+
+.main-wrap{
+	border: 2px solid green;
+
+}
+
+.wrap-heder{
+	border: 1px solid red;
+
+	height: 152px;
+	width: 1488px;
+
+	.str-1{
+		border: 1px solid #05FF28;
+		height: 60%;
+	}
+
+	.str-2{
+		border: 1px solid blue;
+		height: 30%;
+	}
+
+
+
+}
+
+.wrap-content{
+	border: 1px solid blue;
+	height: 1000px;
+	width: 1488px;
+}
+
+
+
+.wrap-footer{
+	border: 1px solid black;
+
+	height: 96px;
+	width: 1488px;
+}
+
+
+

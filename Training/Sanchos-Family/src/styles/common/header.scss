@@ -1,13 +1,5 @@
 @import "../mixins/media";
 
-header {
-    width: 220px;
-    background-color: red;
-
-    @include media-tablet {
-        width: 500px;
-    }
-}
 
 @font-face {
     font-family: Raleway; /* Имя шрифта */
